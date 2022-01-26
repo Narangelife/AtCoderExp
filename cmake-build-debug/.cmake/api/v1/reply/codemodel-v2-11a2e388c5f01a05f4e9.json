@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AtCoder",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "234_A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-234_A-Debug-fb6c18e4bd11e54e56a2.json",
+					"name" : "234_A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "234_B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-234_B-Debug-e05f4f04f8f541f39ebb.json",
+					"name" : "234_B",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "234_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-234_C-Debug-e9e83dc282c0035f0213.json",
+					"name" : "234_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "236_A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-236_A-Debug-8ba867b478d58fbee228.json",
+					"name" : "236_A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AtCoder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AtCoder-Debug-bb1cc6f6edc06463b215.json",
+					"name" : "AtCoder",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/Repository/NarangeLife/AtCoder/cmake-build-debug",
+		"source" : "F:/Repository/NarangeLife/AtCoder"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
