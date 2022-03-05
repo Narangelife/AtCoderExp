@@ -28,7 +28,7 @@ void search(int x, int y){
 
 int main(){
 
-    /* 幅優先探索 */
+    /* 深さ優先探索 */
     int Sx, Sy;
 
     cin >> H >> W;
