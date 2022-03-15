@@ -25,9 +25,9 @@ int main(){
     cin >> N >> M;
     vector<vert> V(M);
     //初期化
-    for (int i = 0; i < 300; i++){
-        for (int j = 0; j < 300; j++){
-            d[i][j] = inf;
+    for (auto & i : d){
+        for (long long & j : i){
+            j = inf;
         }
     }
     //入力
