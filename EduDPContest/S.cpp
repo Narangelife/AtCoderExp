@@ -33,7 +33,7 @@ int main(){
             dp[i + 1][0][(j + ni) % D] = dp[1][0][j];
         }
     }
-    cout << dp[D][0][0] + dp[D][1][0] - 1 << endl;
+    cout << dp[K.size()][0][0] + dp[K.size()][1][0] - 1 << endl;
 
     return 0;
 }
