@@ -28,7 +28,7 @@ int main(){
             for (int k = 1; k <= K; k++){
                 if (k + j <= K){
                     a[k + j][i] += a[k][i - 1];
-                    a[k + j][i] %= 998244353;
+                    a[k + j][i] %= mod;
                 }
             }
         }
@@ -37,7 +37,7 @@ int main(){
     long long answer = 0;
     for (int i = 1; i <= K; i++){
         answer += a[i][N];
-        answer %= 998244353;
+        answer %= mod;
     }
     cout << answer << endl;
 
