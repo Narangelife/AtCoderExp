@@ -13,6 +13,16 @@
 using namespace std;
 
 int main(){
-
+    long long A, B, K;
+    cin >> A >> B >> K;
+    int answer = 0;
+    while(1){
+        if (A >= B){
+            break;
+        }
+        A *= K;
+        answer++;
+    }
+    cout << answer << endl;
     return 0;
 }
