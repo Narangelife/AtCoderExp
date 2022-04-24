@@ -22,17 +22,17 @@ int main(){
     map<char, bool> CharCheck;
     string list = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     for (char c: list){
-        list[c] = false;
+        CharCheck[c] = false;
     }
 
     for (char c: S){
         if (islower(c)) Low = true;
         if (!islower(c)) Cap = true;
-        if (list[c]){
+        if (CharCheck[c]){
             cout << "No" << endl;
             return 0;
         }else{
-            list[c] = true;
+            CharCheck[c] = true;
         }
     }
 
