@@ -1,3 +1,18 @@
-//
-// Created by Orange777 on 2022/05/14.
-//
+#include <iomanip>
+#include <iostream>
+#include <vector>
+#include <cmath>
+#include <string>
+#include <map>
+#include <stack>
+#include <queue>
+#include <algorithm>
+#include <numeric>
+#include <set>
+
+using namespace std;
+
+int main(){
+
+    return 0;
+}
