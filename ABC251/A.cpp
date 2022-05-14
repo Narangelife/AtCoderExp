@@ -13,6 +13,14 @@
 using namespace std;
 
 int main(){
+    string S;
+    cin >> S;
+    string answer = "";
 
+    for (int i = 0; i < 6 / S.length(); i++){
+        answer += S;
+    }
+
+    cout << answer << endl;
     return 0;
 }
