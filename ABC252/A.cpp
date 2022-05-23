@@ -13,6 +13,9 @@
 using namespace std;
 
 int main(){
-
+    string ch = "abcdefghijklmnopqrstuvwxyz";
+    int N;
+    cin >> N;
+    cout << ch[N - 97] << endl;
     return 0;
 }
