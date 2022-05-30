@@ -13,6 +13,9 @@
 using namespace std;
 
 int main(){
-
+    int a, b, c;
+    cin >> a >> b >> c;
+    string answer = (a <= b && b <= c) || (a >= b && b >= c) ? "Yes" : "No";
+    cout << answer << endl;
     return 0;
 }
