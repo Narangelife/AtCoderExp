@@ -13,6 +13,10 @@
 using namespace std;
 
 int main(){
+    int W;
+    cin >> W;
+
+
 
     return 0;
 }
