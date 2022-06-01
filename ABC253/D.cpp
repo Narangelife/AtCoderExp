@@ -1,14 +1,4 @@
-#include <iomanip>
-#include <iostream>
-#include <vector>
-#include <cmath>
-#include <string>
-#include <map>
-#include <stack>
-#include <queue>
-#include <algorithm>
-#include <numeric>
-#include <set>
+#include <bits/stdc++.h>
 
 using namespace std;
 

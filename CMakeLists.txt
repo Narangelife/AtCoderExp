@@ -3,6 +3,8 @@ project(AtCoder)
 
 set(CMAKE_CXX_STANDARD 17)
 
+include_directories("C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/include/bits")
+
 add_executable(AtCoder main.cpp)
 add_executable(232_A ABC232/A.cpp)
 add_executable(232_B ABC232/B.cpp)
