@@ -6,12 +6,12 @@ using ll = long long;
 #define mod 998244353
 ll dp[1001][5001]; // i番目まで決定してi番目が値jの通り数
 ll sum_dp[1001][5001];
+
 int main(){
-    int N, M, K;
+    ll N, M, K;
     cin >> N >> M >> K;
     for (int i = 1; i <= M; i++){
-        dp[1][i] = 1;
-        sum_dp[1][i] = 1 + sum_dp[1][i - 1];
+        sum_dp[1][i] = (1 + sum_dp[1][i - 1]) % mod;
     }
     for (int i = 1; i < N; i++){
         for (int j = 1; j <= M; j++){
@@ -23,7 +23,8 @@ int main(){
                     dp[i + 1][j] %= mod;
                 }
                 if (j + K <= M){
-                    dp[i + 1][j] += sum_dp[i][M] - sum_dp[i][j + K - 1];
+                    // 引き算のmodに注意
+                    dp[i + 1][j] += (sum_dp[i][M] - sum_dp[i][j + K - 1] + mod) % mod;
                     dp[i + 1][j] %= mod;
                 }
             }
