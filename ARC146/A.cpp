@@ -11,7 +11,7 @@ int main(){
         cin >> A[i];
     }
 
-    sort(A.begin(), A.end(), greater<int>());
+    sort(A.begin(), A.end(), greater<>());
     vector<int> three {A[2], A[1], A[0]};
 
     ll answer = 0;
