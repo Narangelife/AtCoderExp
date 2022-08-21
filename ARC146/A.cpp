@@ -20,7 +20,7 @@ int main(){
         for (int i = 0; i < 3; i++){
             tmp += to_string(three[i]);
         }
-        answer = max(answer, atoll(tmp.c_str()));
+        answer = max(answer, stoll(tmp));
     } while (next_permutation(three.begin(), three.end()));
     cout << answer << endl;
     return 0;
